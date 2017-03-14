@@ -7,12 +7,20 @@
     android:layout_height="match_parent"
     tools:context="com.example.ayates2.hueexperiment.MainActivity">
 
-    <TextView
-        android:id="@+id/sample_text"
+    <RadioButton
+        android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is not a test"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="247dp" />
+        android:text="Lights Off"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lights On"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="56dp" />
 
 </android.support.constraint.ConstraintLayout>
